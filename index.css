@@ -1,0 +1,86 @@
+*{
+	margin:0;
+}
+.container{
+	width:1024px;
+	margin: 0 auto;	
+}
+.header—box{
+	position:relative;
+	height: 575px;
+	background: #192314;
+	overflow: hidden;
+}
+.header-pic-box{
+	width:652px;
+	height:503px;
+	background:url(2.jpg);
+	background-size:100% auto;
+	float:right;
+}
+.header-text-box{
+	width:512px;
+	height: 208px;
+	/*background: #4caf50;*/
+	position: absolute;
+	left:100px;
+	top: 120px;
+	color: #fff;
+	/*background: rgba(225,225,225,0.1);*/
+}
+.description{
+	line-height: 24px;
+	margin-bottom: 10px;
+	b
+}
+.title{
+	/*font-weight: normal;不加粗*/
+	font-weight: normal;
+	letter-spacing: 3.75px;
+	font-size: 30px;
+	line-height: 39px;
+	margin-top:15px;
+	margin-bottom: 24px;
+}
+.small-desc{
+	font-size: 13px;
+	line-height: 21px;
+	margin-bottom: 2px;
+}
+.button{
+	display: block;
+}
+.header-text-box a{
+	background: rgba(225,225,225,0.1);
+	color: #fff;
+}
+.banner-box{
+	height: 400px;
+	background: url(3.jpg);
+	background-size: 100% auto;
+	background-position: 0 -158px;
+}
+.product-box{
+	width: 823px;
+	height: 353px;
+	/*background-color: red;*/
+	margin: 0 auto;
+	margin-top: -48px;
+}
+.product-item{
+	width: 235px;
+	height: 353px;
+	float:left;
+	position: relative;
+}
+.product-item img{
+	width: 100%
+}
+.product-item h4{
+	position: absolute;
+	top:15px;
+	color:#fff;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+}
