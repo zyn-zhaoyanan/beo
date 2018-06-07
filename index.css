@@ -7,13 +7,13 @@
 }
 .header—box{
 	position:relative;
-	height: 575px;
+	height: 100vh;
 	background: #192314;
 	overflow: hidden;
 }
 .header-pic-box{
 	width:652px;
-	height:503px;
+	height:488px;
 	background:url(2.jpg);
 	background-size:100% auto;
 	float:right;
@@ -24,8 +24,9 @@
 	/*background: #4caf50;*/
 	position: absolute;
 	left:100px;
-	top: 120px;
+	top: 150px;
 	color: #fff;
+	font-size: 12px;
 	/*background: rgba(225,225,225,0.1);*/
 }
 .description{
@@ -50,12 +51,9 @@
 .button{
 	display: block;
 }
-.header-text-box a{
-	background: rgba(225,225,225,0.1);
-	color: #fff;
-}
 .banner-box{
-	height: 400px;
+	height: 305px;
+	padding-bottom: 100px;
 	background: url(3.jpg);
 	background-size: 100% auto;
 	background-position: 0 -158px;
@@ -83,4 +81,15 @@
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 24px;
+}
+.button{
+	display: block;
+	width: 202px;
+	line-height: 21px;
+	padding: 10px 40px;
+	background-color: rgba(225,225,225,0.1);
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+
 }
